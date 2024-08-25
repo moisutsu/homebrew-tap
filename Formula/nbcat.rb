@@ -1,20 +1,20 @@
 class Nbcat < Formula
   desc "A command-line tool that displays .ipynb file like `cat` command"
-  version "0.2.6"
+  version "0.2.7"
   on_macos do
     on_arm do
-      url "https://github.com/moisutsu/nbcat/releases/download/v0.2.6/nbcat-aarch64-apple-darwin.tar.xz"
-      sha256 "b83461dae210a704b26cad963de75411fbec75f78a4b863c3b7df39517328c1b"
+      url "https://github.com/moisutsu/nbcat/releases/download/v0.2.7/nbcat-aarch64-apple-darwin.tar.xz"
+      sha256 "2bc1cd7e243adeb3d592ab25317833de25fb9d4f765b2e06690133cebc74152c"
     end
     on_intel do
-      url "https://github.com/moisutsu/nbcat/releases/download/v0.2.6/nbcat-x86_64-apple-darwin.tar.xz"
-      sha256 "ccc4ccfc9cc4f21e5ddd52649f94c3b3d32a91210ca966bdc53cfc981ed2dfb7"
+      url "https://github.com/moisutsu/nbcat/releases/download/v0.2.7/nbcat-x86_64-apple-darwin.tar.xz"
+      sha256 "77bb3e3365c091df8836c620d71f28938098796dee457478b648f7b2bb3bf770"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/moisutsu/nbcat/releases/download/v0.2.6/nbcat-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b89c7635435fe0eefb11c4704a4735eb2d52f61352383127b763194e1f207446"
+      url "https://github.com/moisutsu/nbcat/releases/download/v0.2.7/nbcat-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7f0053775645bedf00b68bb2e8c486e97ea07fd6697d1632dc45d425064692d4"
     end
   end
   license "MIT"
